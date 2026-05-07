@@ -137,7 +137,7 @@ Open the HTML file in any browser to view the chart.
 Add your screenshot like this:
 
 ```markdown
-![Project Screenshot](project_screenshot.png)
+![invoice](invoice.png)
 ```
 
 ---
