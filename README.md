@@ -1,9 +1,11 @@
 # NanoSet – Question & Answer System
 
 ## 📌 Overview
-NanoSet is an AI-powered Question and Answer system designed to provide quick, accurate, and intelligent responses to user queries. The project focuses on creating a smart platform where users can ask questions and receive relevant answers efficiently.
+
+NanoSet is an AI-powered Question & Answer system designed to provide quick, accurate, and intelligent responses to user queries. The project focuses on building a smart platform where users can ask questions and receive relevant answers efficiently.
 
 The system can be used for:
+
 - Educational assistance
 - Technical query solving
 - Knowledge management
@@ -12,19 +14,19 @@ The system can be used for:
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-- AI-based Question & Answer system
+- AI-powered question answering
 - Fast response generation
-- User-friendly interface
 - Intelligent query handling
+- User-friendly interface
 - Search-based answer retrieval
 - Real-time interaction
 - Scalable architecture
 
 ---
 
-## 🛠️ Technologies Used
+# 🛠️ Technologies Used
 
 - Python
 - HTML
@@ -32,10 +34,11 @@ The system can be used for:
 - JavaScript
 - AI / NLP Concepts
 - Database Integration
+- Nanonets AI Agent
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```bash
 NanoSet/
@@ -46,99 +49,84 @@ NanoSet/
 ├── models/
 ├── static/
 ├── templates/
+├── invoice.png
 └── README.md
-
-## 📸 Screenshots
-
-### 1. Google Form Interface
-[Google Form](invoice.png)
-
-# 🛠 Technologies Used
-
-- Nanonets AI Agent
-- HTML
-- Invoice PDF Processing
-- Bar Chart Visualization
+```
 
 ---
 
-# 📂 Project Files
+# 📸 Project Screenshot
 
-| File Name | Description |
-|------------|-------------|
-| `INVOICE.pdf` | Sample invoice used for processing |
-| `invoice_bar_chart.html` | Generated HTML report with bar chart visualization |
-| `project_screenshot.png` | Screenshot showing workflow and generated output |
+## GitHub README Preview
+
+![NanoSet Screenshot](invoice.png)
 
 ---
 
 # 📄 Invoice Information Extracted
 
-The AI agent extracted the following information from the invoice:
+The AI agent extracts important invoice details such as:
 
-- Invoice Number: **INV-2026-101**
-- Vendor: **Global Finance Consulting Pvt. Ltd.**
-- Client: **XYZ Capital Advisors Ltd.**
-- Total Amount: **₹70,800**
-- GST: **18%**
-- Payment Status: **Unpaid**
-
----
-
-# 📊 Service Line Items
-
-| Service | Amount |
-|----------|---------|
-| Financial Modeling Service | ₹20,000 |
-| Risk Analysis Consulting | ₹25,000 |
-| AI in Finance Strategy Session | ₹15,000 |
+- Invoice Number
+- Vendor Name
+- Client Name
+- Total Amount
+- GST Information
+- Payment Status
 
 ---
 
-# 📈 Generated Visualization
+# 📊 Service Line Item Visualization
 
-The system generates an HTML bar chart representing invoice line item totals.
+The system can generate visual reports such as:
 
-### Features:
-- Interactive visual representation
-- Service-wise comparison
-- Easy-to-understand expense breakdown
+- Bar chart visualization
+- Expense comparison
+- Service-wise analysis
+- Interactive HTML reports
 
 ---
 
 # 🚀 How to Run the Project
 
-## Step 1: Upload Invoice
-Upload the invoice PDF into the Nanonets AI Agent workflow.
+## Step 1: Clone the Repository
 
-## Step 2: Process Invoice
-The AI agent extracts invoice details automatically.
+```bash
+git clone YOUR_REPOSITORY_LINK
+```
 
-## Step 3: Generate Visualization
+## Step 2: Open Project Folder
 
-Use the following prompt:
+```bash
+cd NanoSet
+```
+
+## Step 3: Run the Project
+
+```bash
+python app.py
+```
+
+---
+
+# 📈 Example Prompt
 
 ```bash
 make bar chart
 ```
 
-## Step 4: View Output
-
-The system generates:
-
-- `invoice_bar_chart.html`
-
-Open the HTML file in any browser to view the chart.
+The AI agent processes invoice data and generates visual output automatically.
 
 ---
 
-# 📸 Project Output
+# 📂 Output Generated
 
-Add your screenshot like this:
+The project can generate:
 
-```markdown
-![invoice](invoice.png)
-```
+- Invoice data extraction
+- HTML visualization reports
+- Bar chart analysis
+- Smart AI-generated responses
 
 ---
 
@@ -146,11 +134,12 @@ Add your screenshot like this:
 
 Through this project, I learned:
 
-- AI-based invoice automation
-- Document data extraction
+- AI-powered automation
+- Invoice data extraction
 - HTML report generation
-- Data visualization using bar charts
+- Data visualization
 - Working with Nanonets AI Agents
+- GitHub project deployment
 
 ---
 
@@ -158,9 +147,9 @@ Through this project, I learned:
 
 - Add pie chart visualizations
 - Export reports as PDF
+- Add dashboard analytics
 - Automate email notifications
-- Store invoice data in a database
-- Create dashboard analytics
+- Store invoice data in database
 
 ---
 
@@ -170,12 +159,12 @@ Through this project, I learned:
 
 ---
 
-# ⭐ GitHub Upload Steps
+# ⭐ GitHub Upload Commands
 
 ```bash
 git init
 git add .
-git commit -m "Added Invoice Processing Automation Project"
+git commit -m "Added NanoSet Question & Answer System"
 git branch -M main
 git remote add origin YOUR_REPOSITORY_LINK
 git push -u origin main
@@ -185,4 +174,4 @@ git push -u origin main
 
 # 📎 Note
 
-This project is created for educational and learning purposes to demonstrate AI-powered invoice automation and visualization.
+This project is created for educational and learning purposes to demonstrate AI-powered automation, intelligent question answering, and invoice visualization using Nanonets AI Agents.
